@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a01b02c03d04e05f06a07b08c09d0022
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      100000: SlopedRoof
+    second: SlopedRoof
+  - first:
+      4300000: SlopedRoof
+    second: SlopedRoof
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+  bakeAxisConversion: 0
+  importBlendShapes: 1
+  importVisibility: 1
+  importCameras: 0
+  importLights: 0
+  nodeNameAnimationHierarchy: 0
+  assetBundleName: 
+  assetBundleVariant: 

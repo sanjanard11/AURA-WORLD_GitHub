@@ -1,0 +1,41 @@
+# Gable Roof Mesh
+o SlopedRoof
+v -2.300000 0.000000 -2.300000
+v 2.300000 0.000000 -2.300000
+v 0.000000 1.600000 -2.300000
+v -2.300000 0.000000 2.300000
+v 2.300000 0.000000 2.300000
+v 0.000000 1.600000 2.300000
+
+# Normals
+vn 0.0000 0.0000 -1.0000
+vn 0.0000 0.0000 1.0000
+vn -0.5709 0.8210 0.0000
+vn 0.5709 0.8210 0.0000
+vn 0.0000 -1.0000 0.0000
+
+# UVs
+vt 0.0 0.0
+vt 1.0 0.0
+vt 0.5 1.0
+vt 1.0 1.0
+vt 0.0 1.0
+
+# Faces (v/vt/vn)
+# Front triangle (normal pointing -Z)
+f 1/1/1 2/2/1 3/3/1
+
+# Back triangle (normal pointing +Z)
+f 5/1/2 4/2/2 6/3/2
+
+# Left roof slope (normal pointing -X, +Y)
+f 4/1/3 1/2/3 3/4/3
+f 4/1/3 3/4/3 6/5/3
+
+# Right roof slope (normal pointing +X, +Y)
+f 2/1/4 5/2/4 6/4/4
+f 2/1/4 6/4/4 3/5/4
+
+# Bottom base (normal pointing -Y)
+f 1/1/5 4/2/5 5/4/5
+f 1/1/5 5/4/5 2/5/5
