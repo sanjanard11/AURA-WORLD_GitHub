@@ -1,4 +1,4 @@
-🌦️ AURA-WORLD
+**🌦️ AURA-WORLD**
 
 🌍 Adaptive Real-World Telemetry Environment
 
